@@ -14,7 +14,7 @@ const Home = () => {
           </div>
 
           <div className="carousel-inner">
-            <Link to={"/Apple-news"}>
+            <Link to={"/News_React/Apple-news"}>
               <div className="carousel-item active">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLtLMYYoARp59l3csbc7PwJFxfKKo8hG5RNg&s" className="d-block w-100" alt="..." />
                 <div className="carousel-caption d-none d-md-block">
@@ -23,7 +23,7 @@ const Home = () => {
                 </div>
               </div>
             </Link>
-            <Link to={"/BBC-news"}>
+            <Link to={"/News_React/BBC-news"}>
             <div className="carousel-item">
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2fmPlVrmWzT01aO41_FexUfM49fECQErptg&s" className="d-block w-100" alt="..." />
               <div className="carousel-caption d-none d-md-block">

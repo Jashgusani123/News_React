@@ -11,16 +11,16 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/us" element={<Allnews value="us" />} />
+          <Route path="/News_React/us" element={<Allnews value="us" />} />
         </Routes>
         <Routes>
-        <Route path="/india"  element={<Allnews value="in" />}  />
+        <Route path="/News_React/india"  element={<Allnews value="in" />}  />
         </Routes>
         <Routes>
-        <Route path="/Apple-news"  element={<Allnews value="Apple-news" />}  />
+        <Route path="/News_React/Apple-news"  element={<Allnews value="Apple-news" />}  />
         </Routes>
          <Routes>
-        <Route path="/BBC-news"  element={<Allnews value="BBC-news" />}  />
+        <Route path="/News_React/BBC-news"  element={<Allnews value="BBC-news" />}  />
         </Routes>
       </div>
     </Router>

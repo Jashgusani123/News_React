@@ -21,10 +21,10 @@ const Navigation = () => {
                                         <Link className="nav-link" to={"/"} aria-current="page" >Home</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link" to={"/india"} aria-current="page" >India</Link>
+                                        <Link className="nav-link" to={"/News_React/india"} aria-current="page" >India</Link>
                                     </li>        
                                      <li className="nav-item">
-                                        <Link className="nav-link" to={"/us"} aria-current="page" >US</Link>
+                                        <Link className="nav-link" to={"/News_React/us"} aria-current="page" >US</Link>
                                     </li>
                                 </ul>
                                 <form className="d-flex mt-3" role="search">
